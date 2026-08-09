@@ -5,8 +5,7 @@ export const personalInfo = {
   email: 'kuroshjalilian@gmail.com',
   github: 'https://github.com/jkurosh',
   linkedin: 'https://www.linkedin.com/in/kourosh-jalilian-129170338/',
-  // عکس خود را در پوشه public قرار داده و اسم آن را اینجا بنویسید (مثلاً public/profile.jpg)
-  avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80', 
+  avatar: '/avatar.jpg', 
 };
 
 export const skills = [
