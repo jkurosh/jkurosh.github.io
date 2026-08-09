@@ -11,11 +11,11 @@ export const personalInfo = {
 export const skills = [
   { 
     category: 'Frontend', 
-    items: ['React.js', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5 / CSS3'] 
+    items: ['React.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'HTML / CSS'] 
   },
   { 
     category: 'Backend', 
-    items: ['Python', 'Django / FastAPI', 'RESTful API Design', 'PostgreSQL / SQLite'] 
+    items: ['Python', 'Django / FastAPI', 'RESTful API Design', 'PostgreSQL / SQLite' , 'Flask'] 
   },
   { 
     category: 'DevOps', 
