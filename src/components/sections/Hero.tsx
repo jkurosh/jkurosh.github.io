@@ -29,7 +29,8 @@ export function Hero() {
                 <Mail className="w-4 h-4" /> تماس با من
               </a>
               <a
-                href="#"
+                href ="/Kourosh Jalilian-Resume.pdf"
+                download="Kourosh Jalilian-Resume.pdf"
                 className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-5 py-2.5 rounded-lg text-sm font-medium transition-colors"
               >
                 <FileText className="w-4 h-4" /> دریافت فایل PDF رزومه
