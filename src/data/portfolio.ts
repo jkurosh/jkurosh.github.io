@@ -1,26 +1,26 @@
 export const personalInfo = {
-  name: 'کوروش جلیلیان',
-  title: 'مهندس نرم‌افزار و توسعه‌دهنده وب',
+  name: 'کورش جلیلیان',
+  title: 'توسعه دهنده وب و نرم افزار ',
   bio: 'توسعه‌دهنده نرم‌افزار با تمرکز بر ساخت برنامه‌های وب مدرن، مقیاس‌پذیر و تمیز. علاقه‌مند به حل مسائل فنی، طراحی معماری داده و پیاده‌سازی رابط‌های کاربری کارآمد.',
-  email: 'kurosh@example.com',
+  email: 'kuroshjalilian@gmail.com',
   github: 'https://github.com/jkurosh',
-  linkedin: 'https://linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/kourosh-jalilian-129170338/',
   // عکس خود را در پوشه public قرار داده و اسم آن را اینجا بنویسید (مثلاً public/profile.jpg)
   avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80', 
 };
 
 export const skills = [
   { 
-    category: 'توسعه فرانت‌اند (Frontend)', 
-    items: ['React.js', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5 / CSS3', 'Redux / Zustand'] 
+    category: 'Frontend', 
+    items: ['React.js', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5 / CSS3'] 
   },
   { 
-    category: 'توسعه بک‌اند (Backend)', 
+    category: 'Backend', 
     items: ['Python', 'Django / FastAPI', 'RESTful API Design', 'PostgreSQL / SQLite'] 
   },
   { 
-    category: 'ابزارها و توسعه', 
-    items: ['Git / GitHub', 'Vite', 'Docker (Basic)', 'Linux / Bash'] 
+    category: 'DevOps', 
+    items: ['Git / GitHub', 'Vite', 'Docker', 'Linux / Bash'] 
   }
 ];
 
