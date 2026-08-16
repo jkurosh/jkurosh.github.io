@@ -25,16 +25,23 @@ export const skills = [
 
 export const projects = [
   {
-    title: 'سامانه مدیریت و داشبورد وب',
-    description: 'طراحی و پیاده‌سازی کامل داشبورد مدیریتی وب با مدیریت استیت پیچیده، کامپوننت‌های فرم و اتصال کامل به REST API.',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'REST API'],
-    github: 'https://github.com/jkurosh',
+    title: 'سیستم ردیاب قیمت دیجی‌کالا (Digikala Price Tracker)',
+    description: 'خط لوله خودکار استخراج داده (Web Scraping) با Scrapy و توسعه API با جنگو رست برای پایش و ذخیره تاریخچه تغییرات قیمت و مصورسازی روندها.',
+    technologies: ['Python', 'Django', 'Django REST Framework', 'Scrapy', 'PostgreSQL', 'JavaScript'],
+    github: 'https://github.com/jkurosh/digikala-price-tracking',
     demo: '#'
   },
   {
-    title: 'اپلیکیشن وب اختصاصی با پایتون و جنگو',
-    description: 'پیاده‌سازی بخش بک‌اند و پنل مدیریتی داده‌ها با معماری تمیز و بهینه‌سازی کوئری‌های دیتابیس.',
-    technologies: ['Python', 'Django', 'PostgreSQL', 'Tailwind CSS'],
+    title: 'سامانه آموزشی و تشخیصی دامپزشکی (VetLMS)',
+    description: 'پلتفرم جامع یادگیری و کیس‌های بالینی تعاملی با معماری ماژولار، سیستم کنترل دسترسی سطوح کاربری (RBAC) و کانتینرسازی با داکر.',
+    technologies: ['Python', 'Django', 'PostgreSQL', 'Docker', 'REST API', 'JavaScript'],
+    github: 'https://github.com/jkurosh',
+    demo: 'https://vetlms-frontend.vercel.app/'
+  },
+  {
+    title: 'بات نوبت‌دهی و آزمون روزانه بله (Bale Bot Platform)',
+    description: 'توسعه بات ناهمگام (Asynchronous) پیام‌رسان بله برای اتوماسیون نوبت‌دهی، آزمون‌های روزانه با تقویم جلالی و ذخیره‌سازی داده‌های تعاملی کاربران.',
+    technologies: ['Python', 'Balethon API', 'SQLite', 'Khayyam', 'AsyncIO'],
     github: 'https://github.com/jkurosh',
     demo: '#'
   }
